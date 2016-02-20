@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomkaX/CropForecast.git"
+    "url": "https://github.com/tomkaX/CropForecastSystem.git"
   },
   "engines": {
     "node": ">=4",
