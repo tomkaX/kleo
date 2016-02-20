@@ -8,9 +8,9 @@ angular.module('core').controller('HomeController', ['$scope', 'Authentication',
     $scope.onBell = function() {
       setTimeout(function() {
         NotificationService.showNotification({
-          title: 'Kleo app',
-          content: 'Something happened!',
-          icon: 'modules/core/client/img/brand/kleo.png'
+          title: 'CropForecast',
+          content: 'Something happened1!',
+          icon: 'modules/core/client/img/cloud.png'
         });
       }, 0);
     };
@@ -73,14 +73,14 @@ angular.module('core').controller('HomeController', ['$scope', 'Authentication',
       title: 'Something new',
       content: 'Lorem ipsum ',
       user: 'Mary',
-      date: 'Feb 14, 2013',
-      from: 'ps.stu'
+      date: 'Feb 19, 2016',
+      from: 'argo'
     }, {
       title: 'The show performed!',
       content: 'Really great show performed last sunday',
       user: 'J. D. Henderson',
-      date: 'Feb 14, 2013',
-      from: 'bbc.uk'
+      date: 'Feb 19, 2016',
+      from: 'argo'
     }];
   }
 ]);

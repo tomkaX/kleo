@@ -8,9 +8,9 @@ angular.module('core').controller('PageController', ['$scope', 'Authentication',
     $scope.onBell = function() {
       setTimeout(function() {
         NotificationService.showNotification({
-          title: 'Kleo app',
+          title: 'CropForecast ',
           content: 'Something happened!',
-          icon: 'modules/core/client/img/brand/kleo.png'
+          icon: 'modules/core/client/img/cloud.png'
         });
       }, 0);
     };
